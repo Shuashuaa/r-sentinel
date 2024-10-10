@@ -1,0 +1,12 @@
+{
+  "name": "agiluate",
+  "version": "0.0.1",
+  "description": "a method used to measure the speed of each specified function, allowing developers to identify which function is running slowly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "Jovi Joshua Tania",
+  "license": "MIT"
+}
