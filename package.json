@@ -1,12 +1,18 @@
 {
-  "name": "agiluate",
-  "version": "0.0.1",
-  "description": "a method used to measure the speed of each specified function, allowing developers to identify which function is running slowly.",
-  "main": "index.js",
+  "name": "sentinel",
+  "version": "0.0.5", 
+  "description": "",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node dist/index.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Jovi Joshua Tania",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "dist",
+    "index.d.ts",
+    "package.json"
+  ]
 }
