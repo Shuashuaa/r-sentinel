@@ -1,16 +1,13 @@
-# Bench-it
-> A method used to measure the speed of each specified function, allowing developers to identify which function is running slowly.
-
 ## Installation
 
 ```
-npm install agialuate@latest
+npm install bench-up@latest
 ```
 
 ## Usage
 
 ```
-import Eval from 'agiluate'
+import Eval from 'bench-up'
 
 Eval([
     yourFunction1();
