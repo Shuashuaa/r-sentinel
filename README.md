@@ -1,13 +1,13 @@
 ## Installation
 
 ```
-npm install bench-up@latest
+npm install r-sentinel@latest
 ```
 
 ## Usage
 
 ```
-import Eval from 'bench-up'
+import Eval from 'r-sentinel'
 
 Eval([
     yourFunction1();
