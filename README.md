@@ -9,7 +9,7 @@
 npm install r-sentinel@latest
 ```
 
-## Usage
+## Import
 use Import
 ```
 import Eval from 'r-sentinel'
@@ -18,7 +18,7 @@ use Require
 ```
 const Eval = require('r-sentinel');
 ```
-
+## Usage
 ```
 Eval([
     yourFunction1();
