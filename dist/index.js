@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.funcSpeed = funcSpeed;
-function funcSpeed(funcs) {
+exports.Eval = Eval;
+function Eval(funcs) {
     if (!Array.isArray(funcs)) {
         throw new TypeError('Input must be an array of functions');
     }
@@ -32,5 +31,4 @@ function getSpeedCategory(executionTime) {
         return 'Fast';
     }
 }
-
-module.exports = funcSpeed;
+module.exports = Eval;
